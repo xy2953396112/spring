@@ -1,0 +1,39 @@
+
+*~
+.DS_Store
+.gradle
+/target
+/*/target
+/example/*/target
+/build
+/*/build
+/example/*/build
+/buildSrc/build
+/buildSrc/subprojects/*/build
+
+# IDEA
+/out
+/*/out/
+/example/*/out
+.idea/
+*.iml
+
+settings.xml
+.classpath.txt
+.fullclasspath.txt
+
+# eclipse
+.project
+.buildpath
+.classpath
+.factorypath
+.settings
+.checkstyle
+
+# netbeans
+nb-configuration.xml
+*/nb-configuration.xml
+
+.mvn/wrapper/maven-wrapper.jar
+
+# End .gitignore
